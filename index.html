@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astro Sampath | Kundli & Home Visit Astrology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero / Header -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">Astro Sampath</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
+        <div>
+          <p class="eyebrow">Kundli · Home Visit · Personal Guidance</p>
+          <h1>Accurate <span class="accent">Kundli insights</span> with personal care.</h1>
+          <p class="subtitle">
+            Detailed Kundli analysis and in-person home visits to guide you in
+            important life decisions related to career, marriage, finance, and peace of mind.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn primary">Book a Consultation</a>
+            <a href="#services" class="btn secondary">View Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Astro Sampath</h2>
+        <p>
+          I am <strong>Pise Venkat Sampath Rao</strong>, known as <strong>Astro Sampath</strong>,
+          dedicated to providing clear and practical guidance through detailed Kundli (birth chart) study.
+          My focus is on real-life solutions, not fear.
+        </p>
+        <p class="mt-1">
+          I offer both <strong>in-depth Kundli reading</strong> and
+          <strong>personal home visit sessions</strong> for individuals and families who prefer
+          direct, face-to-face consultations in the comfort of their home.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section alt-bg">
+      <div class="container">
+        <h2>Astrology Services</h2>
+        <p>Choose how you want to connect with Astro Sampath.</p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>📜 Kundli Detailed Study</h3>
+            <p>
+              Complete analysis of your birth chart including personality nature,
+              life patterns, strengths, challenges, and important periods.
+              Guidance related to career, marriage, finance, family and health.
+            </p>
+            <p class="service-meta">
+              You share your birth details (date, time, place) and receive a
+              detailed explanation in simple, easy-to-understand language.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🏠 Personal Home Visit</h3>
+            <p>
+              Prefer a face-to-face session? Astro Sampath personally visits your
+              home for a dedicated consultation session for you and your family.
+            </p>
+            <p class="service-meta">
+              Ideal for family discussions, marriage decisions, and important
+              life events. Travel availability depends on your location.
+            </p>
+          </div>
+        </div>
+
+        <p class="center note">
+          For bookings, please share your <strong>full name</strong>,
+          <strong>date of birth</strong>, <strong>time of birth</strong>,
+          <strong>place of birth</strong>, and <strong>city for home visit</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section">
+      <div class="container">
+        <h2>How the Consultation Works</h2>
+        <p>
+          The process is simple and personalized so you feel comfortable and clear at every step.
+        </p>
+
+        <div class="grid">
+          <div class="card mini">
+            <h3>1. Share Your Details</h3>
+            <p>
+              You send your birth details and preferred date for consultation through
+              WhatsApp or email.
+            </p>
+          </div>
+          <div class="card mini">
+            <h3>2. Chart Preparation</h3>
+            <p>
+              Astro Sampath prepares your Kundli with detailed study focused on your questions.
+            </p>
+          </div>
+          <div class="card mini">
+            <h3>3. Session (Online or Home Visit)</h3>
+            <p>
+              You receive a clear explanation of your chart with guidance and possible remedies.
+            </p>
+          </div>
+          <div class="card mini">
+            <h3>4. Follow-up Doubts</h3>
+            <p>
+              You can ask follow-up questions for a limited period after the session
+              (as discussed during booking).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section alt-bg">
+      <div class="container">
+        <h2>Contact & Bookings</h2>
+        <p>
+          For all consultations, please contact Astro Sampath directly through email or WhatsApp.
+        </p>
+        <ul class="contact-list">
+          <li>
+            📧 Email:
+            <a href="mailto:venkatsampathrao123@gmail.com">
+              venkatsampathrao123@gmail.com
+            </a>
+          </li>
+          <li>
+            💬 WhatsApp:
+            <a href="https://wa.me/916361841237" target="_blank">
+              +91 63618 41237
+            </a>
+          </li>
+        </ul>
+
+        <p class="note">
+          While messaging, please mention whether you are interested in
+          <strong>Kundli detailed study</strong> or <strong>personal home visit</strong>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Astro Sampath · Pise Venkat Sampath Rao</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
